@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="80" viewBox="0 0 400 80">
+  <style>
+    .logo-text {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      font-size: 48px;
+      fill: #33043A;
+      letter-spacing: 2px;
+    }
+    .icon-bg {
+      fill: #33043A;
+      rx: 16;
+    }
+    .icon-dot {
+      fill: #ffffff;
+    }
+  </style>
+
+  <!-- Square App Icon -->
+  <rect x="0" y="0" width="64" height="64" class="icon-bg"></rect>
+  <circle cx="32" cy="32" r="10" class="icon-dot"></circle>
+
+  <!-- Logo Text -->
+  <text x="80" y="55" class="logo-text">
+    BLOG<tspan dx="6">•</tspan><tspan dx="6">ORA</tspan>
+  </text>
+</svg>
